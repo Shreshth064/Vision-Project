@@ -1,0 +1,47 @@
+.contactform-heading {
+  text-align: center;
+  color: #375bae;
+  font-family: Cambria;
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.btn btn-primary {
+  text-align: center;
+}
+
+.contactform-button {
+  text-align: center;
+}
+
+.contactform-button button {
+  background-color: #6786b5;
+  border-color: none;
+  font-size: 24px;
+}
+
+.contactform-button button:hover {
+  background-color: #4139a3;
+}
+
+.form-label {
+  color: #000000;
+  font-weight: 600;
+  font-family: Cambria;
+  font-size: 24px;
+}
+
+.form-container {
+  background-color: #bde0f5;
+  border-radius: 20px;
+}
+
+.form-control:hover {
+  border-color: rgb(137, 213, 221);
+
+}
+
+
+.form-container h2 {
+  color: #000000;
+}

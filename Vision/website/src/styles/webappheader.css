@@ -1,0 +1,30 @@
+.web-app-tab{
+    background-color: rgba(76, 126, 167, 0.3);
+}
+
+.tab-title {
+    color: black;
+    margin-right:80px;
+    font-size: 22px;
+    font-family:Cambria;
+  }
+  .web-app-home{
+    display:flex;
+    flex-direction: row;
+   justify-content: space-between;
+  }
+
+  .webapp-tabs{
+    position:relative;
+    height:50%;
+  
+  }
+
+  .webapp-logout{
+    position:absolute;
+    top:2%;
+    left:95%;
+    font-size: 17px;
+    font-family:Cambria;
+  }
+  

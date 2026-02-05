@@ -1,0 +1,21 @@
+.contact-animation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.contact-form {
+    width: 70vw;
+    margin-left: 80px;
+}
+
+.hand-animation {
+    height: 80vh;
+    width: auto;
+}
+
+.contact-image {
+    width: 100vw;
+}

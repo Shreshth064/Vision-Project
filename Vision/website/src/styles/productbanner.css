@@ -1,0 +1,26 @@
+.product-banner{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+.product-banner-button{
+    position:absolute;
+    top:70%;
+    display:inline-block;
+    width: 20vw;
+    font-size:30px;
+}
+
+.product-image{
+    width:100vw;
+}
+
+@media (max-width: 990px) {
+
+    .product-banner-button{
+        top:65%;
+        width:fit-content;
+    }
+}

@@ -1,0 +1,17 @@
+.product-section-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+@media (max-width: 1405px) {
+    .product-section-container{
+        flex-direction:column;
+    }
+}
+
+
+
+

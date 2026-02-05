@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+.banner-image {
+    width: 100vw;
+    height: 500px;
+    display: block;
+}
+
+.banner-heading {
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    width: 42vw;
+}
+
+.banner-container {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-content {
+    position: absolute;
+    display: inline-block;
+    top: 45%;
+    left: 8%;
+    width: 42vw;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+    color: whitesmoke;
+    font-family: 'poppins', sans-serif;
+}
+
+.banner-button {
+    position: absolute;
+    display: inline-block;
+    top: 80%;
+    left: 8%;
+    width: 20vw;
+}
+
+.typewriter {
+    position: absolute;
+    top: 30px;
+}
+
+@media (max-width: 1332px) {
+    .banner-heading {
+        top: 10%;
+        font-size: 20px;
+    }
+
+    .banner-content {
+        top: 35%;
+        font-size: 14px;
+    }
+
+    .banner-button {
+        top: 70%;
+    }
+}
+
+@media (max-width: 1332px) {
+    .banner-heading {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        font-family: 'poppins', sans-serif;
+        position: relative;
+        width: 80vw;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner-content {
+        position: relative;
+        display: block;
+        width: 100vw;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 0px;
+        color: rgb(0, 0, 0);
+        font-family: 'poppins', sans-serif;
+        margin-top: 30px;
+    }
+
+    .banner-button {
+        position: relative;
+        display: block;
+        width: 20vw;
+        margin-top: 30px;
+        margin-left: auto;
+    }
+}

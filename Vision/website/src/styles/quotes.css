@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+.story-image {
+  width: 100vw;
+}
+
+.about-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-quote-quote {
+  font-family: Cambria;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(212, 100%, 87%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s infinite ease-in-out;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 100vw;
+  }
+}
+
+.about-quote-text {
+  font-family: 'poppins', sans-serif;
+}
+
+.about-quote-logo {
+  width: 80px;
+}

@@ -1,0 +1,57 @@
+.text-center p-4 {
+  background-color: #F5DEBD;
+}
+
+.custom-footer {
+  background-color: #DADFF7;
+  font-family: Cambria;
+}
+
+.custom-background {
+  background-color: #232C33;
+}
+
+.custom-text-color {
+  color: #ffffff;
+}
+
+.custom-bg {
+  background-color: #C08C83;
+}
+
+.contact {
+  background-color: #F5DEBD;
+  color: #282c34;
+}
+
+.footer-top{
+  padding-top:30px;
+}
+
+.company-name{
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  width: 80px;
+  height: auto;
+}
+
+.footer-title {
+  color: rgb(145, 27, 27) !important;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.footer-text, .text-reset {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-foot {
+  font-size: 20px;
+}
