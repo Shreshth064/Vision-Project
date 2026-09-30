@@ -1,0 +1,31 @@
+# PostgreSQL service for the Vision time-series data layer.
+#
+# The MongoDB side of the project runs on MongoDB Atlas (cloud), so there is
+# no mongo service here -- this compose file only stands up local Postgres.
+#
+#   docker compose up -d
+#   PGPASSWORD=vision python Vision/postgres/load.py
+#
+# Credentials come from the environment (with the defaults below) and are
+# never baked into application code.
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: vision-postgres
+    environment:
+      POSTGRES_DB: ${PGDATABASE:-vision}
+      POSTGRES_USER: ${PGUSER:-vision}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-vision}
+    ports:
+      - "${PGPORT:-5432}:5432"
+    volumes:
+      - vision_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PGUSER:-vision} -d ${PGDATABASE:-vision}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  vision_pgdata:
